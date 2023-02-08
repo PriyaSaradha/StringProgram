@@ -1,0 +1,11 @@
+package qetechchannel;
+
+public class String_Concat_Prog {
+    public static void main(String[] args) {
+        String str1="Selenium";
+        String str2="Automation";
+        String str3="Testing";
+        String str4=str1.concat(" " +str2).concat(" " +str3);
+        System.out.println("Concat value : " +str4);
+    }
+}
